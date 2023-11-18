@@ -60,9 +60,9 @@
   <commonModules>CommonModule.ТелеграмСлучайноеФото</commonModules>
   <commonModules>CommonModule.ТелеграмЭхо</commonModules>
   <wsReferences>WSReference.DailyInfo</wsReferences>
+  <constants>Constant.ИД</constants>
   <constants>Constant.ИдентификаторПоследнегоОбновления</constants>
   <constants>Constant.РежимРаботыБота</constants>
-  <constants>Constant.ТокенСервисаПогодыАрх</constants>
   <constants>Constant.ТокенСервисаПоискаФото</constants>
   <constants>Constant.ТокенТелеграмБота</constants>
   <catalogs>Catalog.ВопросыПростойВикторины</catalogs>
@@ -70,6 +70,7 @@
   <catalogs>Catalog.ТелеграмЧаты</catalogs>
   <catalogs>Catalog.УчетныеЗаписиТелеграм</catalogs>
   <enums>Enum.РежимРаботыБота</enums>
+  <dataProcessors>DataProcessor.ОбменЯндексДиск</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкаВходящихСообщений</dataProcessors>
   <dataProcessors>DataProcessor.ПолучениеПогоды</dataProcessors>
   <dataProcessors>DataProcessor.ПолучениеПогодыАрх</dataProcessors>
