@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b7e3eff-a96b-4589-9fe3-36d3f21129e9">
+  <producedTypes>
+    <objectType typeId="db126f77-6c7e-4621-8413-a158a0254021" valueTypeId="bb7b38f8-4e71-4cb6-ba5e-2758c6d702b1"/>
+    <managerType typeId="aad020d0-e584-46e7-8dc2-68d74975481a" valueTypeId="3861e94d-7223-4f5d-ab1b-93e38d42bed9"/>
+  </producedTypes>
+  <name>ОбменЯндексДиск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен яндекс диск</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбменЯндексДиск.Form.Форма</defaultForm>
+  <attributes uuid="047e7d5a-df19-4d3a-bd09-5d7cc9e5b1e6">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1d98ddb2-1406-451f-9c26-9353f9211fe6">
+    <name>IDПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ee09688c-4cbc-405e-9df1-1b365e2cf9e8">
+    <name>ПарольПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bd324587-23d5-4829-ae19-3f3355b0e299">
+    <name>КодАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код авторизации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5f0704be-a152-4847-b2a4-8db37616489f">
+    <name>СрокДействияТокена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия токена</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="da4a933f-b033-446c-b898-10196a7d7e62">
+    <name>ИДТГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДТГ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="63ad589a-274d-474f-bc75-85c25e1ca185">
+    <name>ТокенТГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен ТГ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="9258bef9-6ec7-45e7-85c9-daa1302595f2">
+    <producedTypes>
+      <objectType typeId="00c7b950-304f-4d33-b921-69ae86b5b016" valueTypeId="28e78154-ae47-4c26-b52d-b0c99aa99853"/>
+      <rowType typeId="4f315b60-d4a2-4f36-a2e8-b7d8d476d1ef" valueTypeId="1042d9de-94e4-4996-8493-7a4c46be52c1"/>
+    </producedTypes>
+    <name>СписокФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список файлов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3e7429e8-5bf9-48ca-990e-f32525dc2696">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="4cc69b3b-ff93-42a0-bb51-9dd0bfa4c37c">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0e65bbc8-43a5-46c2-8523-46598600816e">
+      <name>Путь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Путь</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="81c3dd2e-71df-4acf-a50a-3a082ac626b7">
+    <name>ФормаАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма авторизации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7a45fc69-886e-4daa-984c-b3ff3c585032">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
